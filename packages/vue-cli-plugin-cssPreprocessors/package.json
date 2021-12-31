@@ -1,0 +1,29 @@
+{
+  "name": "@hpstream/vue-cli-plugin-csspreprocessors",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "huang.peng <huang.peng@immomo.com>",
+  "homepage": "https://github.com/hpstream/vue-cli-plugins#readme",
+  "license": "ISC",
+  "main": "index.js ",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.wemomo.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hpstream/vue-cli-plugins.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/hpstream/vue-cli-plugins/issues"
+  }
+}
