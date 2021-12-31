@@ -2,7 +2,6 @@ module.exports = pkg => {
     const notice = 'PostCSS, Autoprefixer and CSS Modules are supported by default'
   const prompts = [{
     name: 'cssPreprocessor',
-    when: answers => answers.features.includes('css-preprocessor'),
     type: 'list',
     message: `Pick a CSS pre-processor${process.env.VUE_CLI_API_MODE ? '' : ` (${notice})`}:`,
     description: `${notice}.`,
