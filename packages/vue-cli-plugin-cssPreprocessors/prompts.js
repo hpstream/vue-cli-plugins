@@ -1,4 +1,5 @@
 module.exports = pkg => {
+    const notice = 'PostCSS, Autoprefixer and CSS Modules are supported by default'
   const prompts = [{
     name: 'cssPreprocessor',
     when: answers => answers.features.includes('css-preprocessor'),
