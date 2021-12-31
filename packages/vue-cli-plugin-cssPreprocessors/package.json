@@ -14,7 +14,7 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "https://npm.wemomo.com/"
+    "registry": "https://registry.npmjs.org/"
   },
   "repository": {
     "type": "git",
