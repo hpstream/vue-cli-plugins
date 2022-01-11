@@ -10,7 +10,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node packages/vue-cli-plugin-cssPreprocessors"
   },
   "repository": {
     "type": "git",
@@ -23,5 +24,8 @@
     "url": "https://github.com/hpstream/vue-cli-plugins/issues"
   },
   "homepage": "https://github.com/hpstream/vue-cli-plugins#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "axios": "^0.24.0"
+  }
 }

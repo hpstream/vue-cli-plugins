@@ -1,0 +1,36 @@
+@mixin font-basic {
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+}
+
+@mixin scroll-list($height) {
+  height: $height;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+@mixin flexLayout($justify: center, $align: center) {
+  display: flex;
+  align-items: $align;
+  justify-content: $justify;
+}
+
+@mixin backgroundImage($url) {
+  background: url($url) no-repeat;
+  background-size: 100% 100%;
+}
+
+@mixin circle($size: 100%) {
+  width: $size;
+  height: $size;
+  border-radius: 50%;
+}
+
+@mixin ellipsis($width){
+  overflow: hidden;
+  max-width: $width;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}

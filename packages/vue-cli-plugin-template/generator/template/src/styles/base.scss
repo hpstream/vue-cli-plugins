@@ -1,0 +1,158 @@
+.w_100 {
+	width: 100%;
+}
+
+.h_100 {
+	height: 100%;
+}
+
+.border-box {
+	box-sizing: border-box
+}
+
+.auto {
+	margin: 0 auto;
+}
+
+.ellipsis {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.bold {
+	font-weight: bold;
+	font-weight: bolder
+}
+
+.center {
+	text-align: center
+}
+
+.right-align {
+	text-align: right
+}
+
+.justify {
+	text-align: justify
+}
+
+.overflow-hidden {
+	overflow: hidden
+}
+
+.overflow-scroll {
+	overflow: scroll
+}
+
+.inline {
+	display: inline
+}
+
+.block {
+	display: block
+}
+
+.inline-block {
+	display: inline-block
+}
+
+.flex {
+	display: flex
+}
+
+.flex-wrap {
+	flex-wrap: wrap
+}
+
+.items-start {
+	align-items: flex-start
+}
+
+.items-end {
+	align-items: flex-end
+}
+
+.items-center {
+	align-items: center
+}
+
+.items-baseline {
+	align-items: baseline
+}
+
+.items-stretch {
+	align-items: stretch
+}
+
+.justify-start {
+	justify-content: flex-start
+}
+
+.justify-end {
+	justify-content: flex-end
+}
+
+.justify-center {
+	justify-content: center
+}
+
+.justify-between {
+	justify-content: space-between
+}
+
+.justify-around {
+	justify-content: space-around
+}
+
+.relative {
+	position: relative
+}
+
+.absolute {
+	position: absolute
+}
+
+.fixed {
+	position: fixed
+}
+
+.z1 {
+	z-index: 1
+}
+
+.z2 {
+	z-index: 2
+}
+
+.z3 {
+	z-index: 3
+}
+
+.z4 {
+	z-index: 4
+}
+
+.circle {
+	border-radius: 50%
+}
+
+.border1 {
+	border-style: solid;
+	border-width: 1px;
+}
+
+.border2 {
+	border-style: solid;
+	border-width: 2px;
+}
+
+.border3 {
+	border-style: solid;
+	border-width: 3px;
+}
+
+.border4 {
+	border-style: solid;
+	border-width: 4px;
+}

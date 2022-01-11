@@ -1,0 +1,39 @@
+{
+	"compilerOptions": {
+		"noImplicitAny": false, // 是否在表达式和声明上有隐含的any类型时报错
+		"target": "esnext",
+		"module": "esnext",
+		"strict": true,
+		"jsx": "preserve",
+		"importHelpers": true,
+		"moduleResolution": "node",
+		"experimentalDecorators": true,
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+		"sourceMap": true,
+		"allowJs": true,
+		"baseUrl": ".",
+		"types": [
+			"webpack-env"
+		],
+		"paths": {
+			"@/*": [
+				"src/*"
+			]
+		},
+		"lib": [
+			"esnext",
+			"dom",
+			"dom.iterable",
+			"scripthost"
+		]
+	},
+	"include": [
+		"src/**/*.ts",
+		"src/**/*.vue",
+		"src/pages/**/*.tsx"
+	],
+	"exclude": [
+		"node_modules"
+	]
+}

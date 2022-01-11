@@ -1,0 +1,26 @@
+{
+  "name": "@hpstream/vue-cli-plugin-template",
+  "version": "0.0.8",
+  "description": "> TODO: description",
+  "author": "huang.peng <huang.peng@immomo.com>",
+  "homepage": "https://github.com/hpstream/vue-cli-plugins/tree/main/packages/vue-cli-plugin-template#readme",
+  "license": "ISC",
+  "main": "lib/vue-cli-plugin-template.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hpstream/vue-cli-plugins.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/hpstream/vue-cli-plugins/issues"
+  }
+}

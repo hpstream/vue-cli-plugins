@@ -1,0 +1,38 @@
+html, body, ul, li, p, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+ul, li {
+  list-style: none;
+}
+
+html {
+  height: 100%;
+  min-height: 100%;
+}
+
+body {
+  font-family: "Pingfang SC", LiHei Pro Medium, "Microsoft YaHei", "微软雅黑", arial;
+  font-size: 24px;
+
+  position: relative;
+
+  min-height: 100%;
+
+  user-select: none;
+
+  color: #000000;
+
+  -webkit-tap-highlight-color: transparent;
+  -webkit-text-size-adjust: none;
+  -webkit-touch-callout: none;
+}
+
+a:hover, a:visited, a:link, a:active {
+  text-decoration: none;
+}
