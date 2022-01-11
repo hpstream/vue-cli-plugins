@@ -11,8 +11,14 @@
     "test": "__tests__"
   },
   "files": [
-    "lib"
+    "lib",
+    "prompts.js",
+    "generator.js"
   ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hpstream/vue-cli-plugins.git"
@@ -22,5 +28,6 @@
   },
   "bugs": {
     "url": "https://github.com/hpstream/vue-cli-plugins/issues"
-  }
+  },
+  "gitHead": "7d07bd1069d70b5956015621f8f997652b469e4a"
 }
