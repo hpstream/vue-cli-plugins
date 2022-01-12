@@ -26,6 +26,8 @@
   "homepage": "https://github.com/hpstream/vue-cli-plugins#readme",
   "description": "",
   "dependencies": {
-    "axios": "^0.24.0"
+    "axios": "^0.24.0",
+    "fs-extra": "^10.0.0",
+    "glob": "^7.2.0"
   }
 }

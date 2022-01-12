@@ -26,15 +26,6 @@ function getEntryPages() {
 }
 module.exports = (api, vueOptions) => {
 
-  api.registerCommand(
-    'greet', {
-      description: 'Write a greeting to the console',
-      usage: 'vue-cli-service greet'
-    },
-    () => {
-      console.log(`👋  Hello`)
-    }
-  )
   const pages = getEntryPages();
   vueOptions.pages = pages;
 
