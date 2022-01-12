@@ -1,13 +1,18 @@
 <!--suppress ALL -->
 <template>
-	<div class="main" id="root"></div>
+	<div class="main" id="root">
+		<WelcomeComponent /> 
+	</div>
 </template>
 
 <script lang="ts">
 	import { Component, Vue } from "vue-property-decorator";
+	import WelcomeComponent from "@/components/Welcome.vue"; // eslint-disable-line
 
 	@Component({
-		components: {},
+		components: {
+			WelcomeComponent
+		},
 	})
 	export default class Index extends Vue {}
 </script>

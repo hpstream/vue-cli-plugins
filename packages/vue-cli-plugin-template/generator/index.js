@@ -1,13 +1,13 @@
 let map = {
    tsx: {
-     entryFileName: 'App.tsx',
+     entryFileName: './App.tsx',
      deleteFiles: (files)=>{
        delete files['src/pages/index/App.vue'];
        delete files['src/pages/index/App1.vue'];   
      }
    },
    ts: {
-     entryFileName: 'App.vue',
+     entryFileName: './App.vue',
      deleteFiles: (files) => {
        files['src/pages/index/App.vue'] = files['src/pages/index/App1.vue']
        delete files['src/pages/index/App1.vue'];
@@ -15,7 +15,7 @@ let map = {
      }
    },
    js: {
-     entryFileName: 'App.vue',
+     entryFileName: './App.vue',
      deleteFiles: (files) => {
       delete files['src/pages/index/App1.vue'];
       delete files['src/pages/index/App.tsx'];

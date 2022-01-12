@@ -31,7 +31,7 @@
 	"include": [
 		"src/**/*.ts",
 		"src/**/*.vue",
-		"src/pages/**/*.tsx"
+		"src/**/*.tsx"
 	],
 	"exclude": [
 		"node_modules"

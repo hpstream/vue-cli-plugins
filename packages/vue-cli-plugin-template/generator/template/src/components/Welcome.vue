@@ -8,16 +8,12 @@
 </template>
 
 <script lang="ts">
-	import Vue from "vue";
+import { Component, Prop, Vue } from "vue-property-decorator";
 
-	export default {
-		name: "WelcomeComponent",
-		methods: {
-			goto(url: string) {
-				window.open(url);
-			},
-		},
-	};
+@Component
+export default class HelloWorld extends Vue {
+	
+}
 </script>
 
 <style scoped lang="scss">
