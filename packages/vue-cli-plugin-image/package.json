@@ -11,8 +11,14 @@
     "test": "__tests__"
   },
   "files": [
-    "lib"
+    "lib",
+    "index.js",
+    "generator"
   ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hpstream/vue-cli-plugins.git"
