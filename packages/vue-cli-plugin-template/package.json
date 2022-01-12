@@ -13,7 +13,8 @@
   "files": [
     "lib",
     "prompts.js",
-    "generator.js"
+    "generator.js",
+    "generator"
   ],
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
