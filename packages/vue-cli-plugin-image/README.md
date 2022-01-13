@@ -9,3 +9,8 @@ const vueCliPluginImage = require('vue-cli-plugin-image');
 
 // TODO: DEMONSTRATE API
 ```
+
+```
+// 执行
+vue-cli-service compressImage
+```
