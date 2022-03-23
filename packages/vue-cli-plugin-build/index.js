@@ -25,8 +25,6 @@ function getEntryPages() {
   return result;
 }
 module.exports = (api, vueOptions) => {
-
   const pages = getEntryPages();
   vueOptions.pages = pages;
-
 }

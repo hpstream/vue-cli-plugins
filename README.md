@@ -21,5 +21,6 @@
 
 
 
-## 发布1
+## 发布
+> lerna version
 > lerna publish
