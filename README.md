@@ -21,6 +21,7 @@
 
 
 
-## 发布
-> lerna version
+## 发布流程统计
+> 切换到npm的源
+> npm login 登陆npm;
 > lerna publish
