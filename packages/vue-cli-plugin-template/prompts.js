@@ -1,5 +1,5 @@
 module.exports = pkg => {
-    const notice = 'PostCSS, Autoprefixer and CSS Modules are supported by default'
+  const notice = 'PostCSS, Autoprefixer and CSS Modules are supported by default'
   const prompts = [{
     name: 'codeType',
     type: 'list',
@@ -19,7 +19,5 @@ module.exports = pkg => {
       }
     ]
   }]
-
-
   return prompts
 }
