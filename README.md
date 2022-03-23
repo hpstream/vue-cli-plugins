@@ -18,3 +18,8 @@
    3. Utils 工具包
    4. styles
    5. service
+
+
+
+## 发布
+> lerna publish
